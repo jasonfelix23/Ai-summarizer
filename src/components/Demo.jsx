@@ -94,7 +94,7 @@ const Demo = () => {
                   <img src={loader} alt='loader' className='w-20 h-20 object-contain'/>
                 ): error? (
                   <p className='font-inter font-bond text-black text-center'>
-                    well, that was not supposed to happen
+                    well, that was not supposed to happen...
                     <br />
                     <span className='font-satoshi font-normal text-gray-700'>
                       {error?.data?.error}
